@@ -11,7 +11,9 @@
     "url": "git://github.com/thlorenz/extend-url.git"
   },
   "homepage": "https://github.com/thlorenz/extend-url",
-  "dependencies": {},
+  "dependencies": {
+    "xtend": "~2.0.5"
+  },
   "devDependencies": {
     "tape": "~1.0.2",
     "tap": "~0.4.3"
