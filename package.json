@@ -1,6 +1,6 @@
 {
   "name": "extend-url",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Splits a url into its parts and adds or replaces items found in the parts of another url.",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "tape": "~1.0.2",
     "tap": "~0.4.3"
   },
-  "keywords": [],
+  "keywords": [ "extend", "url", "browser", "query", "auth", "path", "host" ],
   "author": {
     "name": "Thorsten Lorenz",
     "email": "thlorenz@gmx.de",
