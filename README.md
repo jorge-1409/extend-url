@@ -18,6 +18,10 @@ console.log(extended)
 https://joe:schmoe@api.github.com/users/thlorenz/repos?client_id=1&client_secret=2&page=1&per_page=10
 ```
 
+## Installation
+    
+    npm install extend-url
+
 ## API
 
 ### ***extendUrl(url1 : String, url2 : String) : String***
@@ -26,6 +30,6 @@ Returns a url that extends url1 with url2 as follows:
 
 - **protocol** from url2
 - **auth** from url2 or url1 whichever is found first
-- **pathname** from url2 or url1 whichever is found first
-- **host** from url2 or url1 whichever is found first
+- **pathname** from url2
+- **host** from url2
 - **search** (query) url1's query extended with url2's query
